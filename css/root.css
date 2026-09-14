@@ -1,81 +1,27 @@
 :root {
-   /* Primary Warmth - Use this for Headers, Hero backgrounds, and Primary CTAs */
-  --brand-copper: #B55A3B;
-  --brand-copper-dark: #92452B;
-  --brand-copper-light: #D47A5A;
-  --brand-copper-glow: rgba(181, 90, 59, 0.12); /* For subtle hover effects */
-
-  /* Freshness - Use for "Vegan", "Gluten-Free", and Fresh ingredient callouts */
-  --brand-zaatar: #4A6B3A;
-  --brand-zaatar-dark: #314D24;
-  --brand-zaatar-light: #6B8F56;
-
-  /* Luxury Accent - Use SPARINGLY for stars, awards, or premium badges */
-  --brand-saffron: #D4A14B;
-  --brand-saffron-dark: #B88935;
-
-  /* Neutrals - The foundation of the upscale feel */
-  --brand-labneh: #FCF8F2;
-  --brand-labneh-dark: #F0EAE0;
-  --brand-charcoal: #1E1A17;
-  --brand-charcoal-light: #3A322C;
-
-  /* ========================================
-     SEMANTIC TOKENS (How to use the colors)
-     ======================================== */
-
   /* Backgrounds */
-  --color-bg-primary: var(--brand-labneh);
-  --color-bg-secondary: var(--brand-labneh-dark);
-  --color-bg-inverse: var(--brand-charcoal);
-  --color-bg-card: #FFFFFF;
+  --color-bg: #f8f7f4;
+  --color-surface: #ffffff;
+  --color-surface-soft: #dbeafe;
+
+  /* Brand */
+  --color-primary: #172554;
+  --color-primary-light: #475569;
+  --color-accent: #3b82f6;
 
   /* Text */
-  --color-text-primary: var(--brand-charcoal);
-  --color-text-secondary: var(--brand-charcoal-light);
-  --color-text-inverse: var(--brand-labneh);
-  --color-text-muted: #8A7E76; /* For subtitles and dates */
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+  --color-text-on-primary: #ffffff;
 
-  /* Interactive Elements (Buttons & Links) */
-  --color-btn-primary: var(--brand-copper);
-  --color-btn-primary-hover: var(--brand-copper-dark);
-  --color-btn-secondary: transparent;
-  --color-btn-secondary-border: var(--brand-copper);
-  --color-btn-secondary-hover: var(--brand-copper-glow);
+  /* Borders */
+  --color-border: #e2e8f0;
 
-  /* Accents & Highlights */
-  --color-accent-herb: var(--brand-zaatar);
-  --color-accent-gold: var(--brand-saffron);
-  --color-star-rating: var(--brand-saffron);
+  /* States */
+  --color-success: #16a34a;
+  --color-warning: #f59e0b;
+  --color-error: #dc2626;
 
-  /* Borders & Dividers */
-  --color-border-light: var(--brand-labneh-dark);
-  --color-border-medium: #E3D9D0;
-
-  /* ========================================
-     PREMIUM EFFECTS (Elevating the Quality)
-     ======================================== */
-  
-  --shadow-elevated: 0 8px 30px rgba(30, 26, 23, 0.10);
-  --shadow-soft: 0 4px 12px rgba(30, 26, 23, 0.06);
-  --shadow-warm: 0 8px 32px rgba(181, 90, 59, 0.15); /* Copper-tinted shadow for CTAs */
-
-  --border-radius-sm: 4px;   /* Sharp, premium corners */
-  --border-radius-md: 8px;
-  --border-radius-lg: 16px;
-  --border-radius-full: 9999px;
-  
-  --transition-smooth: all 0.3
+  /* Effects */
+  --color-accent-glow: rgba(59, 130, 246, 0.25);
 }
-
-/*
-Primary (Hero): #E8A359 (Warm Golden Orange) - The color of the perfect fry.
-
-Secondary (Backgrounds): #FDF8F0 (Warm Off-White) - A canvas that looks like pita bread.
-
-Accent 1 (Freshness): #6B8C42 (Herb Green) - Parsley, mint, and tahini sauce.
-
-Accent 2 (Spice): #C84B31 (Sumac Red) - For pickled turnips and chili sauce.
-
-Text: #2D2424 (Dark Roast Brown) - For readability.
-*/

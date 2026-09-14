@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-bg-primary);
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.body__bg{
+    display: block;
+    position: fixed;
+    background-image: url('../images/falafel_main.jpg');
+    width: 100%;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 111;            
+}

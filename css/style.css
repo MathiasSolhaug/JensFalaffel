@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px;
+    padding:40px 20px;
     z-index: 10;
     position:relative;
 }
@@ -24,6 +24,10 @@
   gap: 10px;
   flex-grow:1 ;
 }
+.navbar a{
+
+}
+.navbar 
 
 .body__bg{
     display: block;
